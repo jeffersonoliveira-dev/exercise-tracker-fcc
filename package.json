@@ -1,0 +1,29 @@
+{
+  "name": "exercise-tracker-fcc",
+  "version": "1.0.0",
+  "description": "last api/microserv project from freecodecamp certificate ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cardbeat/exercise-tracker-fcc.git"
+  },
+  "author": "Jefferson Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cardbeat/exercise-tracker-fcc/issues"
+  },
+  "homepage": "https://github.com/Cardbeat/exercise-tracker-fcc#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
