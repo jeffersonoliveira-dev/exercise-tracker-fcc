@@ -1,12 +1,11 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
+const Exercise = "./exercise-model";
 
 const userSchema = new Schema({
   username: String,
-  description: String,
-  duration: Number,
-  _id: String,
-  date: String
+  count: Number,
+  log: [Exercise]
 });
 
 const User = mongoose.model("user", userSchema);
